@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+
+    h1 {
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    p {
+            font-size: 20px;
+        a {
+            font-size: 20px;
+            font-family: sans-serif;
+            color: black;
+            text-transform: capitalize;
+        }
+    }
+}

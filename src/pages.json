@@ -1,0 +1,6 @@
+{
+    "calculator": {
+        "name": "Calculator",
+        "route": "calculator"
+    }
+}
