@@ -1,6 +1,3 @@
 {
-    "calculator": {
-        "name": "Calculator",
-        "route": "calculator"
-    }
+    "Calculator": "calculator"
 }

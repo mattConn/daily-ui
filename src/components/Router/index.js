@@ -9,11 +9,11 @@ const makeComponent = (module) => {
 
 const Router = () => <BrowserRouter>
     <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<App pages={pages}/>} />
         {
-            Object.keys(pages).map(page => (
-                <Route path={`/${pages[page].route}`}
-                element={makeComponent(require(`../Daily-UI/${pages[page].route}/components/App`))} 
+            Object.keys(pages).map(name => (
+                <Route path={`/${pages[name]}`}
+                element={makeComponent(require(`../Daily-UI/${pages[name]}/components/App`))} 
                 />
             ))
             
