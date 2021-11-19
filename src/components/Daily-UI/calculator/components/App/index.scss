@@ -1,0 +1,18 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    .calculator {
+        width: 220px;
+        margin: 0 auto;
+        .buttons {
+            .row {
+                display: block;
+                margin: 10px 0;
+                .button {
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+}
